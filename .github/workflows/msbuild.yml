@@ -51,6 +51,6 @@ jobs:
     - name: Publish
       uses: softprops/action-gh-release@v1
       with:
-        files: "${{ env.name }}"
+        files: "x64/${{ env.BUILD_CONFIGURATION }}/${{ env.name }}"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
