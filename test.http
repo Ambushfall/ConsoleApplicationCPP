@@ -1,0 +1,7 @@
+GET https://ncratleos.sharepoint.com/sites/NRPA/_api/web/GetFolderByServerRelativeUrl('Shared%20Documents/RPA%20Team/PSModulesLuka/')/Files
+
+
+
+###
+
+GET https://ncratleos.sharepoint.com
